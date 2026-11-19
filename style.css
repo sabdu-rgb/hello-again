@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(1, 1, 115);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginC{
+   background-color: azure;
+   padding: 30px;
+   border-radius: 30px;
+}
+
+#username{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+    box-shadow: 0 1px 2px;
+}
+
+#password{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+    box-shadow: 0 1px 2px;
+}
+
+.btn-primary{
+    background-color: rgb(203, 0, 0);
+    border: none;
+    padding: 300px;
+    border-radius: 500px;
+    box-shadow: 0 4px 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-size: 25px;
+}
+
+.btn-primary:hover{
+    transform: scale(1.03);
+}
+
+a{
+    text-decoration: none;
+}
